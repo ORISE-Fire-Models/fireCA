@@ -76,7 +76,9 @@ Performs calculations on data to create a spread vector for each location and ti
 
 ### Requirements
 - Python 3.9+
-- See requirements.txt for dependencies. #just create one requirements 
+- numpy
+- scipy
+- matplotlib
 
 ### Example Run
 ```bash
