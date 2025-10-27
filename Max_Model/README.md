@@ -80,6 +80,23 @@ Performs calculations on data to create a spread vector for each location and ti
 
 ### Example Run
 ```bash
-python Main.py # get on alpheus for this.
+python Main.py --indir=/mnt/DataDrive1/data/zholden/VIIRS/CA_model_test/raster_inputs_daily/ --outdir=/mnt/DataDrive1/data/zholden/VIIRS/CA_model_test/<USER_OUTPUT_FOLDER>/ --fireID=MT4703711487920170717 --res=90 --max_iteration=400 --n_burnt=False --plotting=True --hasBarrier=False --isSimpleCell=False --growthWeight=1
 ```
+
+### Explanation of Example Run Arguments
+
+The example run executes the **`Main.py`** script and passes various parameters that control the model's input, output, and behavior. Each argument is a **flag** prefixed with `--`.
+
+| Argument | Description | Example Value |
+| :--- | :--- | :--- |
+| **`--indir`** | **Input Directory:** The file path to the folder containing the input data. | `/mnt/DataDrive1/.../raster_inputs_daily/` |
+| **`--outdir`** | **Output Directory:** The file path to the folder where all model outputs will be saved. **Best to create a new folder** | `/mnt/DataDrive1/.../<USER_OUTPUT_FOLDER>/` |
+| **`--fireID`** | **Fire Identification:** The ID of the fire to be simulated. | `MT4703711487920170717` |
+| **`--res`** | **Spatial Resolution:** Measured in **meters**. | `90` |
+| **`--max_iteration`** | **Maximum Iterations:** The maximum number of simulation time steps. | `400` |
+| **`--n_burnt`** | **Number Burnt:** A boolean flag that determines if the model will stop after 1000 cells have burned. | `False` |
+| **`--plotting`** | **Enable Plotting:** A boolean flag that determines if simulation plots are saved. | `True` |
+| **`--hasBarrier`** | **Barrier Inclusion:** A boolean flag to indicate if the simulation uses the final perimeter of the VIIRS data to restrit the simulation. | `False` |
+| **`--isSimpleCell`** | **Simple Cell Model:** A boolean flag that determines whether gradient descent (`False`) or bisection (`True`) is used. | `False` |
+| **`--growthWeight`**** | **Growth Weight Factor:** Factor to adjust the growth rate. Max seemed to have success with approx `0.1`. | `1` |
 
