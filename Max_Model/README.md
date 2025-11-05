@@ -1,6 +1,6 @@
 # FireCA: Cellular Automaton Fire Spread Model
 
-This folder contains the code as it was when Max left the project. There have been attempts at comments, but some of the cacluations lack clear reasoning.
+This folder contains the code as it was when Max left the project. There have been attempts at comments, but some of the calcuations lack clear reasoning.
 
 ---
 
