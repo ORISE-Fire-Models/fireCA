@@ -6,20 +6,20 @@ This folder contains the code as it was when Lindsay left the project. The code 
 
 ## File Structure
 
-- **runCA.py**  
+- **[runCA.py](runCA.py)**  
   Entry point for running simulations. Responsible for:
   - Assigning values for the `CellAuto` class arguments.
   - Creating a `CellAuto` instance.  
   - Running the cellular automaton (`CellAuto.run()`) simulation.  
   - Currently set to run through many fires
  
-- **CellAuto.py**  
+- **[CellAuto.py](CellAuto.py)**  
   Core cellular automaton logic. Handles data ingestion, preprocessing, model initialization, simulation, and plotting.  
 
-- **Cell.py**  
+- **[Cell.py](Cell.py)**  
   Defines cell-level behavior, including ignition, burning, extinguishment, and rate-of-spread vector calculations.  
 
-- **utils.py**  
+- **[utils.py](utils.py)**  
   Contains functions for logging simulation information along with calculating and plotting statistics to assess model performance.  
 
 ---
