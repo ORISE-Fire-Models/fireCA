@@ -6,7 +6,7 @@ This folder contains the code as it was when Max left the project. There have be
 
 ## File Structure
 
-- **Main.py**  
+- **[Main.py](Main.py)**  
   Entry point for running simulations. Responsible for:
   - Creating a `fireCA` object.  
   - Running data collection from the other folders (`fireCA.get_data()`).  
