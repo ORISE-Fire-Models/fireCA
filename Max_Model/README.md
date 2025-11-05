@@ -15,23 +15,23 @@ This folder contains the code as it was when Max left the project. There have be
   - Running the cellular automaton (`fireCA.run()`).  
   - Creates GeoTiff of arrival times (`fireCA.saveArrivalMap()`).
 
-- **fireCA.py**  
+- **[fireCA.py](fireCA.py)**  
   Core cellular automaton logic. Handles data ingestion, preprocessing, model initialization, and simulation.  
 
-- **Cell.py**  
+- **[Cell.py](Cell.py)**  
   Defines cell-level behavior, including ignition, burning, extinguishment, and rate-of-spread vector calculations.  
   - Uses **gradient descent** to calibrate RoS vectors.  
 
-- **SimpleCell.py**  
+- **[SimpleCell.py](SimpleCell.py)**  
   Inherits from `Cell`, but uses **bisection** instead of gradient descent to calculate RoS.  
 
-- **Stats.py**  
+- **[Stats.py](Stats.py)**  
   Contains functions for calculating statistics to assess model performance.  
 
-- **max_model_report.pdf**  
+- **[max_model_report.pdf](max_model_report.pdf)**  
   Max’s explanation of the process and reasoning behind model design choices.  
 
-- **influence_of_slope_on_fire_spread_rate.pdf**  
+- **[influence_of_slope_on_fire_spread_rate.pdf](influence_of_slope_on_fire_spread_rate.pdf)**  
   Paper used as justification for the slope magnitude calculation. 
 
 ---
