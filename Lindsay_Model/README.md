@@ -1,6 +1,6 @@
 # CellAuto: Cellular Automaton Fire Spread Model
 
-This folder contains the code as it was when Lindsay left the project. It should be well commented.
+This folder contains the code as it was when Lindsay left the project. The code should be well commented.
 
 ---
 
