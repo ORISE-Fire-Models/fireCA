@@ -2,7 +2,7 @@
 This repository contains multiple versions of a cellular automaton fire spread model and supporting experimental frameworks developed by different contributors. The model is informed by fire growth predictions created with Topofire which is a topographically resolved wildfire danger and drought monitoring system developed by Zachary Holden. Each folder represents a distinct phase in the model’s evolution — from early implementation to later refinements and controlled experimental testing.
 
 ---
-## [Max_Model/](.Max_Model/)
+## [Max_Model/](Max_Model/)
 This folder contains the code as it was when Max left the project. Max inherited the a version of the model from Adam and expanded and/or modified it. Some of the underlying logic and calculations likely originated in Adam’s implementation, though the exact portions are unclear. Comments were added in places, but certain calculations and assumptions lack complete documentation or clear reasoning.
 
 ---
