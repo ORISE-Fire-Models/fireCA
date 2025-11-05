@@ -6,17 +6,17 @@ This folder contains a simplified experimental version of the CellAuto fire spre
 
 ## File Overview
 
-- **createToyData.ipynb**
+- **[createToyData.ipynb](createToyData.ipynb)**
     Notebook used to generate synthetic raster inputs for model testing. These datasets simulate uniform growth predictions over space and time.
-- **toy_utils.py**
+- **[toy_utils.py](toy_utils.py)**
     Helper functions used for loading, visualizing, and managing toy datasets and simulation outputs.
-- **ToyCell.py**
+- **[ToyCell.py](ToyCell.py)**
     Defines the behavior of individual toy cells. Mirrors `Cell.py`.
-- **ToyCellAuto.py**
+- **[ToyCellAuto.py](ToyCellAuto.py)**
     Implements the toy cellular automaton logic. Setup is like just like `CellAuto.py`, but can utilize toy data and `toy_utils.py`.
-- **ToyCellAutoRun.ipynb**
+- **[ToyCellAutoRun.ipynb](ToyCellAutoRun.ipynb)**
     Acts as a framework for running toy simulations. 
-- **ToyData.zip**
+- **[ToyData.zip](ToyData.zip)**
     A collection of pre-generated toy datasets that can be used to run or visualize test simulations.
 
 ---
