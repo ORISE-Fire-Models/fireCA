@@ -6,11 +6,11 @@ This repository contains multiple versions of a cellular automaton fire spread m
 This folder contains the code as it was when Max left the project. Max inherited the a version of the model from Adam and expanded and/or modified it. Some of the underlying logic and calculations likely originated in Adam’s implementation, though the exact portions are unclear. Comments were added in places, but certain calculations and assumptions lack complete documentation or clear reasoning.
 
 ---
-## Lindsay_Model/
+## [Lindsay_Model/](Lindsay_Model/)
 This folder contains the code as it was when Lindsay left the project. It builds upon and modifies the version inherited from Max. It includes detailed comments that clarify reasoning and workflow. 
 
 ---
-## Toy_Model/
+## [Toy_Model/](Toy_Model/)
 This folder contains a simplified experimental version of the Lindsay's CellAuto fire spread model. It was developed to test model behavior under controlled conditions using artificial (“toy”) data — for example, wind-only or slope-only scenarios — before applying the model to real fires.
 
 ---
