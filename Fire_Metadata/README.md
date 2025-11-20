@@ -6,7 +6,7 @@ This folder contains the compiled fire-level metadata used to align ignition tim
 
 ## File Overview
 
-**fire_info.csv**  
+**[fire_info.csv](fire_info.csv)**  
 A summary table containing metadata for each fire with available data.
  
 **Columns**  
@@ -26,9 +26,9 @@ A summary table containing metadata for each fire with available data.
 
 The following scripts and notebooks were used to compile and cross-reference the information in `fire_info.csv`. These files are not fully organized or well-documented, but they outline the general data collection process.
 
-- **getFireInfo.py**
+- **[getFireInfo.py](getFireInfo.py)**
     Script used to merge ignition, environmental, and suppression metadata across sources.
-- **getSuppressionInfo.ipynb**
+- **[getSuppressionInfo.ipynb](getSuppressionInfo.ipynb)**
     Notebook used to extract and summarize suppression timing (aerial and personnel peaks) from ICS-209-PLUS data.
-- **windMeta.ipynb**
+- **[windMeta.ipynb](windMeta.ipynb)**
     Notebook for reading and summarizing metadata from wind NetCDF files.
