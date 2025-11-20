@@ -14,6 +14,10 @@ This folder contains the code as it was when Lindsay left the project. It builds
 This folder contains a simplified experimental version of the Lindsay's CellAuto fire spread model. It was developed to test model behavior under controlled conditions using artificial (“toy”) data — for example, wind-only or slope-only scenarios — before applying the model to real fires.
 
 ---
+## [Fire_Metadata/](Fire_Metadata/)
+Contains compiled fire-level metadata used to align ignition timing, environmental data, and suppression activity records across datasets. The main file, fire_info.csv, summarizes fire information, and supporting scripts/notebooks were used to extract and merge this data.
+
+---
 ## Computing Environment
 These models are designed to be run on [Alpheus](https://alpheus_vnc7.mbdev.net/), a remote VNC-accessible virtual machine  used for model development and testing.
 
